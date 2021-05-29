@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+        background: url(https://images.unsplash.com/photo-1508615070457-7baeba4003ab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNvbG9yJTIwZ3JhZGllbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* .container {
+        background: linear-gradient( 
+            to right,  #0C84AF 0%, #8643CC 21%, #E368B6 100%);
+        color: black;   
+        font-family: 'Mountains of Christmas', cursive ; 
+        font-size: 1.5rem;
+        text-decoration: none; 
+
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    } */
+
+    #main {
+        background: #F5EFEE;
+        padding: 5px;
+        margin: auto;
+    }
+
+    .card-title {
+        background: linear-gradient(to top, #591571 0%, #3BD3D6 45%, #ECEFB9 100%);
+        text-align: center;
+        font-family: 'Squada One', cursive;
+        font-size: x-large;
+        padding: 1rem;
+        max-width: fit-content 12px 36px;
+
+    }
+
+    #task {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .card-content .btn {
+        background: linear-gradient(to top, #BE0303 0%, #F3D6D6 100%);
+        color: #fff;
+        font-family: 'Squada One', cursive;
+        font-size: large;
+    }
+
+    #task-title {
+        background: linear-gradient(to top, #591571 0%, #3BD3D6 45%, #ECEFB9 100%);
+        font-family: 'Squada One', cursive;
+        font-size: x-large;
+        padding: 0.8rem;
+        max-width: fit-content 12px 36px;
+    }
+
+    .collection .collection-item {
+        background: rgba(190, 144, 192, 0.2);
+        color: #55121F;
+    }
+    
+    /* .delete-item secondary-content */
+
+    .btn {
+        background: linear-gradient(to top, #BE0303 0%, #F3D6D6 100%);
+        color:#BE0303;
+        font-family: 'Squada One', cursive;
+        font-size: large;
+    }
+
+
+
